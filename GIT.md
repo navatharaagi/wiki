@@ -53,7 +53,7 @@
   ```
   # Commit with message 
   $ git commit -m "<COMMIT MESSAGE>"
-  # Stage and Commit 
+  # Stage Tracked files and Commit 
   $ git commit -am "<COMMIT MESSAGE>"
   ```
 * Push 

@@ -10,7 +10,7 @@
   # Clone repo into to specific directory
   $ git clone <repo_url> <to_directory>
   # Clone specific branch
-  $ git clone <repo_url> — branch <branch_name>
+  $ git clone -b <branch_name>> <repo_url>
   # Clone a certain level of history’s depth
   $ git clone -depth=<depth_level> <repo_url>
   ```

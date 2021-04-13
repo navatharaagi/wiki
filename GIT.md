@@ -10,7 +10,7 @@
   # Clone repo into to specific directory
   $ git clone <repo_url> <to_directory>
   # Clone specific branch
-  $ git clone <repo_url> — branch <branch_name>
+  $ git clone -b <branch_name> <repo_url>
   # Clone a certain level of history’s depth
   $ git clone -depth=<depth_level> <repo_url>
   ```
@@ -18,10 +18,14 @@
   ```
   # Create New Branch 
   $ git branch <branch-name>
-  # View Branches 
+  # View Branches Local 
   $ git branch or $ git branch --list
-  # Delete Branch 
+  # View Remote 
+  $ git branch -r or $ git branch -a (Remote and local)
+  # Delete Local Branch 
   $ git branch -d <branch-name>
+  # Delete Remote branch from local 
+  $ git push origin --delete <branch name>
   ```
 * Checkout 
   ```
@@ -49,7 +53,7 @@
   ```
   # Commit with message 
   $ git commit -m "<COMMIT MESSAGE>"
-  # Stage and Commit 
+  # Stage Tracked files and Commit 
   $ git commit -am "<COMMIT MESSAGE>"
   ```
 * Push 

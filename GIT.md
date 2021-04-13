@@ -18,8 +18,10 @@
   ```
   # Create New Branch 
   $ git branch <branch-name>
-  # View Branches 
+  # View Branches Local 
   $ git branch or $ git branch --list
+  # View Remote 
+  $ git branch -r or $ git branch -a (Remote and local)
   # Delete Branch 
   $ git branch -d <branch-name>
   ```

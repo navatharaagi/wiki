@@ -66,6 +66,8 @@
   # Push 
   $ git push origin HEAD 
   # -f as optional flag to force it
+  # Push all branches and tags 
+  $ git push origin --all --follow-tags 
   ```
 * Pull / Fetch 
   ```
@@ -106,3 +108,10 @@ $ git config --global push.default current
 * Blame 
 * Gitignore 
   
+# Branching Models 
+* Git Flow 
+* Github Flow
+* Trunk Base Development 
+* GitLab Flow 
+* One Flow 
+* Feature Branch Flow  
